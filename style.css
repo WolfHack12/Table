@@ -1,0 +1,17 @@
+td
+{
+    background-color:dodgerblue;
+    border-color:white;
+    width: 100px;
+    height: 100px;
+}
+table
+{
+    width: auto;
+    border: 1px solid dodgerblue ;
+    border-spacing: 3px;
+    margin: auto;
+    margin-top: 30%;
+
+    
+}
