@@ -1,17 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
 td
 {
     background-color:dodgerblue;
-    border-color:white;
+    border:white;
     width: 100px;
     height: 100px;
 }
-table
+body
 {
-    width: auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.table
+{
+    position: absolute;
+    top: 350px;
+    width: max-content;
     border: 1px solid dodgerblue ;
     border-spacing: 3px;
-    margin: auto;
-    margin-top: 30%;
-
-    
+}
+.plus1
+{
+    position: absolute;
+    margin-top: 1220px;
+    margin-right: 102px;
+    border: 0;
+    width: 100px;
+    height: 100px;
+    background: rgb(187, 161, 14);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.plus1:hover
+{
+    background-color: rgb(248, 212, 5);
+}
+.plus2
+{
+    position: absolute;
+    margin-top: 803px;
+    border: 0;
+    margin-left: 311px;
+    width: 100px;
+    height: 100px;
+    background:rgb(187, 161, 14);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.plus2:hover
+{
+    background-color: rgb(248, 212, 5);
+}
+h1
+{
+    font-size: 40px;
+    color: white;
+    font-weight: 900;
+}
+.minus1
+{
+    height: 100px;
+    width: 100px;
+    background: rgb(168, 4, 4);
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 597px;
+    margin-right: 310px;
+}
+.minus1:hover
+{
+    background: rgb(248, 60, 60);
+}
+.minus2
+{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background: rgb(168, 4, 4);
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 597px;
+    margin-right: 310px;
+}
+.minus2:hover
+{
+    background: rgb(248, 60, 60);
 }
