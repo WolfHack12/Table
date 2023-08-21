@@ -82,7 +82,6 @@ h1
 .minus1:hover
 {
     background: rgb(248, 60, 60);
-    visibility: visible;
 }
 .minus2
 {
@@ -101,5 +100,4 @@ h1
 .minus2:hover
 {
     background: rgb(248, 60, 60);
-    visibility: visible;
 }

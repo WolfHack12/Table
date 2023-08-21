@@ -71,6 +71,7 @@ buttonMinus2.addEventListener("mouseover", function(){
 })
 function deleteCell(){
     var rows = table.rows;
+    if(table.rows[0].cells.length == 1) return;
     for(let i = 0; i < rows.length; i++){
         rows[i].deleteCell(-1);
     }
@@ -83,4 +84,10 @@ function deleteCell(){
     firstPositionMinus2 -= 101.82
     buttonMinus2.style.marginRight = firstPositionMinus2 + "px";
     
+}
+function deleteRow(){
+    if(table.rows.length == 1) return;
+    table.deleteRow(0);
+    firstPositionPlus1 -= 203.33;
+    buttonPlus1.style.marginTop = firstPositionPlus1 + "px";
 }
