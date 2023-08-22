@@ -2,6 +2,7 @@ const buttonPlus1 = document.getElementById('plus1');
 const buttonPlus2 = document.getElementById('plus2');
 const buttonMinus1 = document.getElementById('minus1');
 const buttonMinus2 = document.getElementById('minus2');
+var box = document.getElementsByClassName("box");
 var table = document.querySelector('table');
 var td = document.createElement('td');
 var firstPositionPlus1 = 1220;
